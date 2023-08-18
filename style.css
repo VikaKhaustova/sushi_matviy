@@ -1,0 +1,370 @@
+html {
+    zoom: 100%;
+}
+body {
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(135deg, rgba(234, 234, 234,0.06) 0%, rgba(234, 234, 234,0.06) 50%,rgba(169, 169, 169,0.06) 50%, rgba(169, 169, 169,0.06) 100%),linear-gradient(90deg, rgb(20,20,20),rgb(20,20,20)); background-size: 72px 72px;
+}
+h2 {
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: red;
+}
+header {
+    position: relative;
+    height: 100px;
+    top: 70px;
+    width: 100%;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+}
+nav {
+    position: absolute;
+    left: 35%;
+    width: 60%;
+    top: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.nav-link{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 23px;
+    text-decoration: none;
+    color: #a00f0f;
+}
+.nav-link:first-child{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.nav-link:hover:first-child{
+    color: #1E1E1E;
+}
+.nav-link:hover {
+    font-weight: 700;
+    color: #FFFFFF;
+    transition: 0.2s ease-in;
+}
+.logo{ 
+    position: absolute;
+    width: 15%;
+    left: 88px;
+    top: 20%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+main{
+    position: relative;
+    width: 100%;
+    top: 100px;
+}
+
+.info{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 7vw;
+}
+.nav-img{
+    position: absolute;
+    width: 30%;
+    left: 10px;
+}
+.info-div{
+    position: absolute;
+    left: 5%;
+    width: 50%;
+}
+.info-img{
+    position: absolute;
+    width: 30%;
+    left: 65%;
+}
+.info-div p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    width: 90%;
+}
+.info-butt{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.call-butt{
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+    color: #F00;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: black;
+}
+.call-butt:hover{
+    background: #FFFFFF;
+    color: #FFC700;
+    border: 1px solid #FFC700;
+    transition: 0.2s ease-out;
+}
+.menu-butt{
+    border: 1px solid #FFC700;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: red; 
+}
+.menu-butt:hover{
+    background: #FFC700;
+    color: #FFFFFF;
+    transition: 0.2s ease-out;
+}
+
+.zag {
+    color: #F00;
+    font-family: Roboto;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav {
+    color: #F00;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.instagram {
+    width: 74px;
+    height: 67px;
+    flex-shrink: 0;
+}
+.facebook {
+    width: 74px;
+    height: 67px;
+    flex-shrink: 0;
+}
+
+.text one {
+    color: #FDFCFC;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    left: 0px;
+    top:0;
+}
+.menu-div{
+    position: relative;
+    left: 88px;
+    margin: 10% 0%;
+}
+.menu-img{
+    width: 30%;
+   
+}
+.menu-info{
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 0;
+    display: flex;
+
+   flex-direction: column;
+   justify-content: center;
+}
+.menu-info h3{
+    color: #F00;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu-text{
+    width: 80%;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+
+.sallary{
+    color: #F00;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.order{
+    background: red;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 2% 10%;
+   
+}
+.order:hover{
+    background: #FFFFFF;
+    color: red;
+    border: 1px solid red;
+    transition: 0.2s ease-out;
+}
+.sale{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 407px;
+    left: 0px;
+   
+}
+.sale-div{
+    display: flex;
+    justify-content: center;
+}
+.sale-img{
+    width: 190px;
+    height: 190px;
+    padding: 3% 5%;
+   
+}
+.about{
+    position: relative;
+    width: 100%;
+    height: 777px;
+    left: 0px;
+}
+.about-div{
+    width: 100%;
+    height: 90%;
+    background-image: url(https://th.bing.com/th/id/R.28d3276847a4c593d1905d73fab9e047?rik=TAZSbY%2fNL2c4%2fQ&riu=http%3a%2f%2fwww.asiaone.com%2fsites%2fdefault%2ffiles%2foriginal_images%2fDec2015%2f20151209_Sushi_shutterstock.jpg&ehk=JLQ7cDVDCMlMweQjzfDQZqMmAL9sEd7IinOHFnfJaVs%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;  
+}
+.about-div p{
+    position: absolute;
+    width: 30%;
+    height: 273px;
+    left: 87px;
+    top: 187px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+footer{
+    position: relative;
+    width: 100%;
+    top: 270px;
+    height: 425px;
+    left: 0px;
+    background: black;
+display: flex;
+flex-wrap: wrap;
+}
+.footer-info{
+    position: absolute;
+    width: 50%;
+    left: 4%;
+    top: 20%;
+}
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.footer-info p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+}
+.footer-img{
+    display: flex;
+    gap: 15px;
+    width: 200px;
+    height: 70px;
+    margin-right: 3%;
+}
+
+
+.phone{
+    color: #F00;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    
+}
+
+.socials{
+    color: #F00;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contacts-div{
+    color: white;
+}
+.footer-logo{
+    position: absolute;
+    top: 10%;
+    right: 2%;
+}
